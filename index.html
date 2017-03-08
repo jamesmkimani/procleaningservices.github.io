@@ -12,8 +12,10 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animate.css">
 
 </head>
+
 <body>
 
     <div class="container-fluid" id="background" class="no-margin">
@@ -22,62 +24,125 @@
                 <h1 class="title">PROFESSIONAL HOME CLEANING<br>SERVICES FROM EXPERTS</h1>
                 <div class="info">
 
-
-                <p><i class="fa fa-check" aria-hidden="true"style="color:#c70a59;"></i>High Quality cleaning services</p>
-                <p><i class="fa fa-check" aria-hidden="true"style="color:#c70a59;"></i>Affordable prices</p>
-                <p><i class="fa fa-check" aria-hidden="true"style="color:#c70a59;"></i>Good discounts for referrals</p>
-</div>
+                    <p><i class="fa fa-check" aria-hidden="true" style="color:#c70a59;"></i>High Quality cleaning services</p>
+                    <p><i class="fa fa-check" aria-hidden="true" style="color:#c70a59;"></i>Affordable prices</p>
+                    <p><i class="fa fa-check" aria-hidden="true" style="color:#c70a59;"></i>Good discounts for referrals</p>
+                </div>
                 <p class="no">Call now <strong>0738569003</strong></p>
                 <p class="hallo">Click to <strong>Live Chat With US!</strong></p>
             </div>
             <div class="col-md-4">
                 <div class="header-form">
                     <form class="" action="index.html" method="post">
-                        <div class="form-group"><label for=""></label>Name<input type="text" class="form-control" placeholder="Name"></div>
-                        <div class="form-group"><label for=""></label>Email<input type="text" class="form-control" placeholder="Email"></div>
-                        <div class="form-group"><label for=""></label>Country<input type="text" class="form-control" placeholder="Country"></div>
-                        <div class="form-group"><label for=""></label>No<input type="text" class="form-control" placeholder="Phone Number"></div>
-                        <div class="form-group"><label for=""></label>Service<input type="text" class="form-control" placeholder="Service"></div>
-<button type="button" class="btn btn-primary">Order Now</button>
+                        <div class="form-group">
+                            <label for=""></label>Name
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <label for=""></label>Email
+                            <input type="text" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for=""></label>Country
+                            <input type="text" class="form-control" placeholder="Country">
+                        </div>
+                        <div class="form-group">
+                            <label for=""></label>No
+                            <input type="text" class="form-control" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <label for=""></label>Service
+                            <input type="text" class="form-control" placeholder="Service">
+                        </div>
+                        <button type="button" class="btn btn-primary animated shake">Order Now</button>
                     </form>
                 </div>
             </div>
         </div>
 
-
     </div>
+    <!---carousel testimonials-->
 
-<!---beginning of footer-->
-<footer class="site-footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-5">
-                            <h4>Our Address</h4>
-                            <address>
+    <div id="imageCarousel" class="carousel slide" data-interval="3000" data-wrap="true">
+        <ol class="carousel-indicators">
+            <li data-target="#imageCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#imageCarousel" data-slide-to="1"></li>
+            <li data-target="#imageCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="images/clients/2.png" class="img-circle" alt="" width="304" height="236" id="centre">
+                <div class="carousel-caption">
+                    <div class="beaut">
+                        <h3>-Junior Luther</h3>
+                        <p class="para">"This company is super-cool.The customer support staff are friendly and gorgeous.They also offer sweet discounts"</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/clients/1.png" class="img-circle" alt="" width="304" height="236" id="centre">
+                <div class="carousel-caption">
+                    <div class="beaut">
+
+                        <h3>-Mayweather smith</h3>
+                        <p class="para">"These guys offer awesome services at affordable rates.I recommended my mates to the company and they also love it"</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/clients/audit-client.png" class="img-circle" alt="" width="304" height="236" id="centre">
+                <div class="carousel-caption">
+                    <div class="beaut">
+                        <h3>-Jim Carrey</h3>
+                        <p class="para">i only hope that my future wife will be able to do a half the job these guys do.Loving forward to using the app"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#imageCarousel" class="carousel-control left" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span></a>
+        <a href="#imageCarousel" class="carousel-control right" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+    <!---end of carousel testimonials-->
+    <!--start of script-->
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#imageCarousel').carousel();
+        });
+    </script>
+    <!--end of script-->
+
+    <!---beginning of footer-->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <h4>Our Address</h4>
+                    <address>
                             #514, Ruaraka<br>
                             Nairobi<br>
                             Kenya<br>
                         </address>
-                    </div>
+                </div>
                 <p>ProCleaningServices</p>
+            </div>
+            <div class="bottom-footer">
+                <div class="col-md-5">@ Copyright ProCleaningServices.</div>
+                <div class="col-md-7">
+                    <ul class="footer-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="testimonials.html">Customer Testimonials</a></li>
+                        <li><a href="prices.html">Prices</a></li>
+                        <li><a href="contact.html">Contact us</a></li>
+                    </ul>
                 </div>
-                <div class="bottom-footer">
-                    <div class="col-md-5">@ Copyright ProCleaningServices.</div>
-                        <div class="col-md-7">
-<ul class="footer-nav">
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html">About Me</a></li>
-<li><a href="testimonials.html">Customer Testimonials</a></li>
-<li><a href="prices.html">Prices</a></li>
-<li><a href="contact.html">Contact us</a></li>
-</ul>
-</div>
 
-
-                </div>
-                </div>
-            </footer>
-<!---end of footer-->
-<!---beginning of script-->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+            </div>
+        </div>
+    </footer>
+    <!---end of footer-->
+    <!---beginning of script-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
