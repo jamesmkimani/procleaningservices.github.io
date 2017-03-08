@@ -1,9 +1,30 @@
 body {
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    background-color: #00801b;
+    background-color: yellow;
+}
+
+
+a:hover {
+    background-color: red;
+}
+
+.tilt {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    float: left;
+}
+
+.tilt:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-box-shadow: 0 0 40px rgba(255, 255, 255, .6), inset 0 0 40px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 0 0 40px rgba(255, 255, 255, .6), inset 0 0 40px rgba(255, 255, 255, 1);
+    box-shadow: 0 0 40px rgba(255, 255, 255, .6), inset 0 0 40px rgba(255, 255, 255, 1);
 }
 
 .col-md-3 {
