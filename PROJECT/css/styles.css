@@ -1,0 +1,50 @@
+h2 {
+    color: blue;
+    font-family: verdana;
+    font-size: 300%;
+}
+body {
+  background-repeat: no-repeat;
+  height: 650px;
+  padding-top: 100px;
+  font-family: 'Raleway', sans-serif;
+  background-size: cover;
+  color: black;
+}
+
+
+.item img {
+  margin: 0 auto;
+  transition:all 0.2s;
+}
+h1 {
+  font-family: 'Fredericka the Great',  cursive;
+  color: #337ab7;
+}
+
+html {
+    perspective: 500px;
+    perspective-origin: 90% 50%;
+}
+
+#container {
+    max-width: 600px;
+    margin: 2 auto;
+
+    .imgContainer{
+        width: 100%;
+    }
+
+}
+
+.image {
+    float: left;
+    width: 33%;
+    img {
+        width: 100%;
+        display: block;
+    }
+}
+h3{
+  color: blue;
+}
