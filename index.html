@@ -14,10 +14,33 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/animate.css">
 
+    <!-- Start of professionalcleaningservices Zendesk Widget script -->
+    <script>
+        /*<![CDATA[*/
+        window.zEmbed || function(e, n) {
+            var t, o, d, s, i, a = [],
+                r = document.createElement("iframe");
+            window.zEmbed = function() {
+                a.push(arguments)
+            }, window.zE = window.zE || window.zEmbed, r.src = "javascript:false", r.title = "", r.role = "presentation", (r.frameElement || r).style.cssText = "display: none", d = document.getElementsByTagName("script"), d = d[d.length - 1], d.parentNode.insertBefore(r, d), s = r.contentWindow, i = s.document;
+            try {
+                o = i
+            } catch (e) {
+                t = document.domain, r.src = 'javascript:var d=document.open();d.domain="' + t + '";void(0);', o = i
+            }
+            o.open()._l = function() {
+                var e = this.createElement("script");
+                t && (this.domain = t), e.id = "js-iframe-async", e.src = "https://assets.zendesk.com/embeddable_framework/main.js", this.t = +new Date, this.zendeskHost = "professionalcleaningservices.zendesk.com", this.zEQueue = a, this.body.appendChild(e)
+            }, o.write('<body onload="document._l();">'), o.close()
+        }("{{zendeskFrameworkUrl}}", "{{zendeskHost}}");
+        /*]]>*/
+    </script>
+    <!-- End of professionalcleaningservices Zendesk Widget script -->
+
 </head>
 
 <body>
-
+    <!--landingpage---->
     <div class="container-fluid" id="background" class="no-margin">
         <div class="row">
             <div class="col-md-8">
@@ -61,6 +84,7 @@
         </div>
 
     </div>
+    <!--end of landingpage---->
     <!---carousel testimonials-->
 
     <div id="imageCarousel" class="carousel slide" data-interval="3000" data-wrap="true">

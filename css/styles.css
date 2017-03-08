@@ -8,7 +8,8 @@
     height: 80vh;
     color: purple;
 }
-.btn{
+
+.btn {
     animation-iteration-count: infinite;
     animation-delay: 2s;
     animation-duration: 0.3s;
@@ -16,7 +17,7 @@
 
 .hallo {
     text-align: center;
-    padding-left: 120px;
+    padding-left: 140px;
     font-size: 20px;
 }
 
@@ -38,26 +39,37 @@
 .title {
     padding-top: 65px;
 }
+
+
 /** end of background image styling**/
 
 body {
     font-family: georgia;
 }
+
+
 /** footer styling**/
+
+
 /**carousel styling**/
 
 #centre {
     margin-left: 500px;
 }
-
+#imageCarousel {
+    margin-bottom: -30px;
+}
 .beaut {
     color: #c70a59;
     margin-top: 500px;
 }
+
 .para {
     font-size: 18px;
 }
-/**carousel styling**/
+
+
+/** end of carousel styling**/
 
 .site-footer {
     background-color: black;
@@ -97,4 +109,6 @@ footer {
     background-color: black;
     color: white;
 }
+
+
 /** end of footer styling**/
