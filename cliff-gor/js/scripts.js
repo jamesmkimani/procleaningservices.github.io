@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $("#login-btn").click(function(event) {
+    $("a").click(function(event) {
         event.preventDefault();
     });
 });
